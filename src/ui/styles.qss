@@ -1,0 +1,48 @@
+QWidget#container {
+    background: transparent;
+}
+
+QLabel {
+    color: #ffffff;
+    font-family: "Segoe UI", "Microsoft YaHei";
+}
+
+QLabel#title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QLabel#status_label {
+    font-size: 12px;
+    color: #cccccc;
+    margin: 10px 0;
+}
+
+QPushButton#close_btn {
+    background-color: transparent;
+    color: #aaaaaa;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+QPushButton#close_btn:hover {
+    color: #ff4d4f;
+}
+
+QPushButton#action_btn {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+QPushButton#action_btn:hover {
+    background-color: #40a9ff;
+}
+
+QPushButton#action_btn:pressed {
+    background-color: #096dd9;
+}
